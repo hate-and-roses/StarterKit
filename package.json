@@ -1,0 +1,20 @@
+{
+  "name": "Tpl",
+  "version": "0.1.0",
+  "devDependencies": {
+    "glob": "~4.3.1",
+    "grunt": "~0.4.1",
+    "grunt-autoprefixer": "~2.0.0",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "~0.11.0",
+    "grunt-contrib-sass": "~0.8.1",
+    "grunt-contrib-uglify": "~0.7.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-slim": "^0.1.0"
+  },
+  "dependencies": {
+    "load-grunt-tasks": "~2.0.0"
+  }
+}

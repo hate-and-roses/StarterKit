@@ -1,0 +1,17 @@
+html{
+}
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+body{
+  font-family: $ffamily;
+}
+
+
+.is-hidden{
+  display: none !important;
+}
+
+

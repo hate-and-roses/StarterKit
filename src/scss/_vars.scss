@@ -1,0 +1,14 @@
+
+$ffamily: 'Roboto', sans-serif;
+
+@mixin bevel($amount, $opacity) {
+  box-shadow: inset $amount $amount $amount rgba(255,255,255, $opacity/2), inset -#{$amount} -#{$amount} $amount rgba(0,0,0,$opacity);
+}
+
+@mixin clearfix() {
+  &:after{
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
